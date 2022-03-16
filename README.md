@@ -23,7 +23,7 @@ the Search Page will be the home page.
 - The user can go back to search page when clicking on a back button
 ```
 
-### 2️⃣ tep 2 - Unmock your data
+### 2️⃣ Step 2 - Unmock your data
 In this step delete your mocks and use provided files (pokemon.ts & pokemon-stats.ts) to retrived data as if you called APIs
 
 ### 3️⃣ Step 3 - Implement filtering
