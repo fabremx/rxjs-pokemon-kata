@@ -24,13 +24,20 @@ the Search Page will be the home page.
 ```
 
 ### 2️⃣ Step 2 - Unmock your data
-In this step delete your mocks and use provided files (pokemon.ts & pokemon-stats.ts) to retrived data as if you called APIs
+In this step delete your mocks and use provided data present into folder `/data` (pokemon-info.ts & pokemon-stats.ts) to retrived data as if you called APIs.
+
+You can choose to retrieve data with :
+- Real time method
+- Streaming method
+
+If you begin to practice RxJs maybe choose real-time function which works more like a classic API.
+Otherwise choose streaming to complete fully the kata.
 
 ### 3️⃣ Step 3 - Implement filtering
 The user shoudl have the possibility to filter pokemons list by entering value into a input field.
 Pokemons can be filtered by Name, pokedex number, type, hp, attack, defense, attack spe, defense spe and speed
 
-### 4️⃣ Step 4 - Add loading info + A stop/resume downlaoding button
+### 4️⃣ Step 4 - Add loading info + A stop/resume downlaoding button (With Streaming methods)
 Add a real time text loader which display percent of downloaded information
 
 **exemple**: `Loading : 48%`
