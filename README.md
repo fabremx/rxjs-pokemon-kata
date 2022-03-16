@@ -6,7 +6,7 @@ CSS is not an important part of this kata, feel free if you want adding styles t
 
 ## ✂️ Steps
 
-##### 1️⃣ Step 1 - Create List page & Details page
+### 1️⃣ Step 1 - Create List page & Details page
 Create both page of the website with mocked informations.
 the Search Page will be the home page.
 
@@ -23,23 +23,23 @@ the Search Page will be the home page.
 - The user can go back to search page when clicking on a back button
 ```
 
-##### 2️⃣ Step 2 - Unmock your data
+### 2️⃣ tep 2 - Unmock your data
 In this step delete your mocks and use provided files (pokemon.ts & pokemon-stats.ts) to retrived data as if you called APIs
 
-##### 3️⃣ Step 3 - Implement filtering
+### 3️⃣ Step 3 - Implement filtering
 The user shoudl have the possibility to filter pokemons list by entering value into a input field.
 Pokemons can be filtered by Name, pokedex number, type, hp, attack, defense, attack spe, defense spe and speed
 
-##### 4️⃣ Step 4 - Add loading info + A stop/resume downlaoding button
+### 4️⃣ Step 4 - Add loading info + A stop/resume downlaoding button
 Add a real time text loader which display percent of downloaded information
 
 **exemple**: `Loading : 48%`
 
 Moreover, add a button to allow to user to pause downloading when he click on it and resume the downbload when he click second time on it.
 
-##### 5️⃣ Step 5 - Compose your team
+### 5️⃣ Step 5 - Compose your team
 Add "select" button into `details page` which allow to user to select the pokemon.
 Display the pokemons that user selected somewhere in home page.
 
-##### 6️⃣Step 6 - Use a store to handle information
+### 6️⃣Step 6 - Use a store to handle information
 Use a state manager to handle informations state into your application.
