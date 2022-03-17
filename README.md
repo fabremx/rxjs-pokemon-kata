@@ -12,7 +12,7 @@ the Search Page will be the home page.
 
 **List page**
 ```
-- List all mocked pokemons described by (Name, pokedex number, type, Image)
+- List all mocked pokemons described by (Name, pokedex number, type, Image, HP, attack and defense)
 - If user click on a pokemon card he's redirect to the details page
 ```
 
